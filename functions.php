@@ -4,3 +4,6 @@
  */
 define( 'DMS_CORE', true );
 require_once( 'dms/functions.php' );
+
+
+// add customization functions and hooks

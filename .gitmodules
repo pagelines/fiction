@@ -67,3 +67,6 @@
 [submodule "sections/socialinks"]
 	path = sections/socialinks
 	url = git@github.com:pagelines/socialinks.git
+[submodule "sections/bignav"]
+	path = sections/bignav
+	url = git@github.com:pagelines/bignav.git
