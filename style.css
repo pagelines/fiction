@@ -16,6 +16,8 @@ PLDEMO: http://themes.pagelines.com/fiction
 blockquote{
 	background: #f7f7f7;
 	padding: 15px;
+	font-style: italic;
+	line-height: 1.3em;
 }
 
 /* LISTS */ 
