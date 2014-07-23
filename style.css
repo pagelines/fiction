@@ -11,3 +11,15 @@ PLURL: http://www.pagelines.com/shop/themes/fiction/
 PLDEMO: http://themes.pagelines.com/fiction
 
 */
+
+
+blockquote{
+	background: #f7f7f7;
+	padding: 15px;
+}
+
+/* LISTS */ 
+
+.spaced-list > li{
+	margin-bottom: 15px;
+}
