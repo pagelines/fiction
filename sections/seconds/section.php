@@ -27,20 +27,43 @@ class PLSeconds extends PageLinesSection {
 
 	}
 	
+	function section_opts(){
+		$options = array(
+			array(
+				'type'	=> 'multi',
+				'title'	=> 'Config',
+				'opts'	=> array(
+					array(
+						'key'	=> 'text',
+						'type'	=> 'text',
+						'label'	=> __( 'Text', 'pagelines' ),
+					),
+				)
+			),
+			
+		);
+
+		
+		
+
+		return $options;
+	}
 
    function section_template( ) {
 
-		
+		$text = $this->opt('text');
 		
 	 ?>
-	<div class="seconds-wrap">
+	<div class="pl-scroll-translate">
+	<div class="seconds-wrap pl-area-wrap">
 		<div class="pl-content">
 			<div class="pl-content-pad">
 				<div class="seconds-text-wrap">
-					<div class="seconds-text tk-din-condensed-web">First Principles Thinking, Community and Events</div>
+					<div class="seconds-text tk-din-condensed-web"><a href="http://fromfiction.com/understanding-first-principles/">First Principles</a> Thinking, Community and Events</div>
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 <?php }
 
