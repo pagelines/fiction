@@ -11,5 +11,14 @@
 	font-family: "din-condensed-web"; 
 	text-transform: uppercase;
 	line-height: 1.1em;
+	letter-spacing: 0;
 	text-align: center;
+}
+.seconds-text a {
+	text-decoration: underline;
+}
+.seconds-text a:hover {
+	opacity: .8;
+	color: inherit;
+	text-decoration: underline;
 }

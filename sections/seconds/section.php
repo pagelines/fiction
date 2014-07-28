@@ -59,7 +59,7 @@ class PLSeconds extends PageLinesSection {
 		<div class="pl-content">
 			<div class="pl-content-pad">
 				<div class="seconds-text-wrap">
-					<div class="seconds-text tk-din-condensed-web"><a href="http://fromfiction.com/understanding-first-principles/">First Principles</a> Thinking, Community and Events</div>
+					<h1 class="seconds-text tk-din-condensed-web"><a href="http://fromfiction.com/understanding-first-principles/">First Principles</a> Thinking, Community, and Events</h1>
 				</div>
 			</div>
 		</div>
