@@ -1,11 +1,10 @@
-.seconds-wrap{
+.pl-area.section-seconds{
 	background: #000;
 	color: #fff;
+	padding: 80px 0;
 }
 
-.seconds-wrap .pl-content-pad{
-	padding: 130px 0;
-}
+
 
 .seconds-text{
 	font-family: "din-condensed-web"; 
@@ -13,12 +12,61 @@
 	line-height: 1.1em;
 	letter-spacing: 0;
 	text-align: center;
+	
 }
 .seconds-text a {
+	color: inherit;
 	text-decoration: underline;
 }
 .seconds-text a:hover {
 	opacity: .8;
 	color: inherit;
 	text-decoration: underline;
+}
+
+.seconds-signup{
+	text-align: center;
+	margin-top: 25px;
+}
+
+.seconds-signup .seconds-email{
+	padding: 9px 20px;
+
+	border: none;
+	font-size: 25px;
+	width: 400px;
+	margin: 0;
+	height: auto;
+	line-height: 1.3em;
+	margin-right: 10px;
+	font-weight: 600;
+	letter-spacing: -1px;
+}
+
+.seconds-signup .seconds-signup-btn{
+	
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 3px;
+	font-size: 23px;
+	text-transform: none;
+	letter-spacing: -1px;
+	padding: 16px 40px;
+	background: #337EFF;
+	color: #fff;
+	box-shadow: inset 1px 1px 0 rgba(255,255,255,.3), inset -1px -1px 0 rgba(255,255,255,.3);
+	border: none;
+	transition: color .2s;
+}
+.seconds-signup .seconds-signup-btn:hover{
+	background: #4d8eff;
+}
+.seconds-signup .seconds-signup-btn:active{
+	background: #0054e5;
+}
+
+.seconds-signup-result{
+	font-size: 35px;
+	margin: 15px;
+	text-transform: uppercase;
 }
