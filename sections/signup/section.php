@@ -95,31 +95,12 @@ class PLSignup extends PageLinesSection {
 		return $options;
 	}
 
-   function section_template( ) {
+   	function section_template( ) {
 
-		$text = $this->opt('text');
-		
-	 ?>
-	<div class="signup-center">
-		
-		<div class="signup-form-container">
-			<div class="signup-confirm" style="display: none;">
-				<h3>You've signed up!</h3>
-				<p>Check your email for details.</p>
-				<a class="btn btn-large btn-primary" href="<?php echo home_url();?>">View Articles</a>
-			</div>
-			<div class="pl-signup-form the-inputs pl-animation-group" action="#">
-				<div class="messages"></div>
-				<input type="email" class="pl-animation pl-appear signup-input the-email" value="" placeholder="Enter Your Email Address" />
-				<span class="pl-animation pl-appear btn btn-large btn-primary btn-signup signup-input">
-					Signup <i class="icon icon-angle-right"></i>
-				</span>
-				
-			</div>
-		
-		</div>
-	</div>
-<?php }
+	
+		echo pl_signup_center();	
+
+	}
 
 
 }
