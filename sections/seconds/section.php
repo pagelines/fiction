@@ -124,6 +124,9 @@ class PLSeconds extends PageLinesSection {
 	<div class="seconds-text-wrap">
 		<h2 class="seconds-text <?php echo $text_class;?>"><?php echo $text;?></h2>
 		<?php if( $text_sub ): ?><p class="sections-sub"><?php echo $text_sub; ?></p><?php endif; ?>
+			
+		<?php echo pl_signup_center(); ?>
+		
 		<?php if( $link ): ?>
 		<div class="seconds-signup">
 			<a class="seconds-signup-btn btn btn-large btn-primary" href="<?php echo $link;?>" ><?php echo $button_text; ?></a>
