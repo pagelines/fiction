@@ -79,6 +79,11 @@ class PLSeconds extends PageLinesSection {
 						'label'	=> __( 'Text', 'pagelines' ),
 					),
 					array(
+						'key'	=> 'text_sub',
+						'type'	=> 'textarea',
+						'label'	=> __( 'Text', 'pagelines' ),
+					),
+					array(
 						'key'	=> 'text_class',
 						'type'	=> 'text',
 						'label'	=> __( 'Text Class', 'pagelines' ),
@@ -107,6 +112,9 @@ class PLSeconds extends PageLinesSection {
    function section_template( ) {
 
 		$text = ( $this->opt('text') ) ? $this->opt('text') : '<a href="http://fromfiction.com/understanding-first-principles/">First Principles</a> Thinking, Community, and Events';
+		
+		$text_sub = $this->opt('text_sub');
+		
 		$text_class = $this->opt('text_class') ? $this->opt('text_class') : 'tk-din-condensed-web';
 		$button_text = ($this->opt('button_text')) ? $this->opt('button_text') : 'Get An Account <i class="icon icon-angle-right"></i>';
 		$link = $this->opt('link');
@@ -114,7 +122,8 @@ class PLSeconds extends PageLinesSection {
 	 ?>
 
 	<div class="seconds-text-wrap">
-		<div class="seconds-text <?php echo $text_class;?>"><?php echo $text;?></div>
+		<h2 class="seconds-text <?php echo $text_class;?>"><?php echo $text;?></h2>
+		<?php if( $text_sub ): ?><p class="sections-sub"><?php echo $text_sub; ?></p><?php endif; ?>
 		<?php if( $link ): ?>
 		<div class="seconds-signup">
 			<a class="seconds-signup-btn btn btn-large btn-primary" href="<?php echo $link;?>" ><?php echo $button_text; ?></a>

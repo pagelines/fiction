@@ -106,7 +106,7 @@ class PLSignup extends PageLinesSection {
 			<div class="signup-confirm" style="display: none;">
 				<h3>You've signed up!</h3>
 				<p>Check your email for details.</p>
-				<a class="btn btn-large" href="<?php echo home_url();?>">View Articles</a>
+				<a class="btn btn-large btn-primary" href="<?php echo home_url();?>">View Articles</a>
 			</div>
 			<div class="pl-signup-form the-inputs pl-animation-group" action="#">
 				<div class="messages"></div>

@@ -7,12 +7,20 @@
 
 
 .seconds-text{
-	font-family: "din-condensed-web"; 
+	font-family: "din-condensed-web", 'open sans', helvetica, arial; 
 	text-transform: uppercase;
 	line-height: 1.1em;
 	letter-spacing: 0;
 	text-align: center;
-	
+	margin: 0;
+}
+
+.sections-sub{
+	margin: 15px auto;
+	max-width: 500px;
+	text-align: center;
+	font-size: 25px;
+	font-family: "din-condensed-web", 'open sans', helvetica, arial; 
 }
 .seconds-text a {
 	color: inherit;
