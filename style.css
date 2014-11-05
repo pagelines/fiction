@@ -25,3 +25,8 @@ blockquote{
 .spaced-list > li{
 	margin-bottom: 15px;
 }
+
+.headroom{
+	padding: 50px;
+	background: #ccc;
+}

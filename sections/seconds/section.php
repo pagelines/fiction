@@ -111,7 +111,7 @@ class PLSeconds extends PageLinesSection {
 
    function section_template( ) {
 
-		$text = ( $this->opt('text') ) ? $this->opt('text') : '<a href="http://fromfiction.com/understanding-first-principles/">First Principles</a> Thinking.';
+		$text = ( $this->opt('text') ) ? $this->opt('text') : '<a href="http://fromfiction.com/understanding-first-principles/">First Principles</a> for Entrepreneurs.';
 		
 		$text_sub = $this->opt('text_sub');
 		
