@@ -124,7 +124,7 @@ class PLSeconds extends PageLinesSection {
 		$button_text = ($this->opt('button_text')) ? $this->opt('button_text') : 'Get An Account <i class="icon icon-angle-right"></i>';
 		$link = $this->opt('link');
 
-		$vert_padding = ( $this->opt('padding') ) ? $this->opt('padding') : '80px';
+		$vert_padding = ( $this->opt('padding') ) ? $this->opt('padding') : '50px';
 		
 	 ?>
 
