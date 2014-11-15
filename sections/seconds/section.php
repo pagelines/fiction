@@ -98,6 +98,11 @@ class PLSeconds extends PageLinesSection {
 						'type'	=> 'text',
 						'label'	=> __( 'Link', 'pagelines' ),
 					),
+					array(
+						'key'	=> 'padding',
+						'type'	=> 'text_small',
+						'label'	=> __( 'Padding', 'pagelines' ),
+					),
 				)
 			),
 			
@@ -118,15 +123,15 @@ class PLSeconds extends PageLinesSection {
 		$text_class = $this->opt('text_class') ? $this->opt('text_class') : 'tk-din-condensed-web';
 		$button_text = ($this->opt('button_text')) ? $this->opt('button_text') : 'Get An Account <i class="icon icon-angle-right"></i>';
 		$link = $this->opt('link');
+
+		$vert_padding = ( $this->opt('padding') ) ? $this->opt('padding') : '80px';
 		
 	 ?>
 
-	<div class="seconds-text-wrap">
+	<div class="seconds-text-wrap" style="padding: <?php echo $vert_padding;?>" >
 		<h2 class="seconds-text <?php echo $text_class;?>"><?php echo $text;?></h2>
 		<?php if( $text_sub ): ?><p class="sections-sub"><?php echo $text_sub; ?></p><?php endif; ?>
 			
-		<?php echo pl_signup_center(); ?>
-		
 		<?php if( $link ): ?>
 		<div class="seconds-signup">
 			<a class="seconds-signup-btn btn btn-large btn-primary" href="<?php echo $link;?>" ><?php echo $button_text; ?></a>
