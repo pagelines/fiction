@@ -116,7 +116,7 @@ class PLSeconds extends PageLinesSection {
 
    function section_template( ) {
 
-		$text = ( $this->opt('text') ) ? $this->opt('text') : 'How To Build Successful Products';
+		$text = ( $this->opt('text') ) ? $this->opt('text') : 'Notes on Building Amazing, Beautiful Products';
 		
 		$text_sub = $this->opt('text_sub');
 		
